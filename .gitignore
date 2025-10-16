@@ -22,6 +22,9 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+secrets.toml
+.streamlit/*
+!.streamlit/secrets.toml.example
 
 # Python
 *.pyc
@@ -50,4 +53,8 @@ wheels/
 # Environment variables
 .env
 .env.local
+
+# User data files
+user_data.csv
+*.csv
 
